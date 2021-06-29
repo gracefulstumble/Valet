@@ -17,7 +17,7 @@ import { Card, CardImg,  CardText, CardBody, CardTitle } from 'reactstrap';
         )
     
         }
- function renderComments(comments) {
+ function RenderComments(comments) {
         if (comments) {
             return(
                 <div className="col-md-5 m-1">
