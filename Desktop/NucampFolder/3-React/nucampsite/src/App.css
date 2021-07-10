@@ -10,6 +10,25 @@ h1, h2, h3, .card-body>.card-title {
   font-weight: 500;
   font-size: 1.25rem;
 }
+.page-enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: 300ms ease-out;
+}
+
+.page-exit {
+  opacity: 1;
+}
+
+.page-exit-active {
+  opacity: 0;
+  transition: 300ms ease-in;
+}
 
 h2 {
   color: #3046C5;
